@@ -187,7 +187,7 @@ jobs:
         with:
           retain_days: 1
           keep_minimum_runs: 3
-          token: ${{ secrets.access_token }}
+          token: ${{ secrets.ACCESS_token }}
           body: |
 
             ### OpenWrt Image information
